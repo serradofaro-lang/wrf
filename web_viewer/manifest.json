@@ -1,0 +1,379 @@
+{
+  "configuration": {
+    "variables": [
+      {
+        "id": "sfcwind",
+        "title": "Viento Superficie",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "wind1500",
+        "title": "Viento 1500",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "wind2000",
+        "title": "Viento 2000",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "wind2500",
+        "title": "Viento 2500",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "wind3000",
+        "title": "Viento 3000",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "blwind",
+        "title": "Viento Promedio",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "bltopwind",
+        "title": "Viento Altura",
+        "units": "Km/h",
+        "type": "plot"
+      },
+      {
+        "id": "wblmaxmin",
+        "title": "Convergencias",
+        "units": "m/s",
+        "type": "plot"
+      },
+      {
+        "id": "hglider",
+        "title": "Techo",
+        "units": "m",
+        "type": "plot"
+      },
+      {
+        "id": "wstar",
+        "title": "T\u00e9rmica",
+        "units": "m/s",
+        "type": "plot"
+      },
+      {
+        "id": "cape",
+        "title": "CAPE",
+        "units": "J/Kg",
+        "type": "plot"
+      },
+      {
+        "id": "zblcl",
+        "title": "Base cubierta",
+        "units": "m",
+        "type": "plot"
+      },
+      {
+        "id": "zsfclcl",
+        "title": "Base c\u00famulos",
+        "units": "m",
+        "type": "plot"
+      },
+      {
+        "id": "t2m",
+        "title": "Temperatura",
+        "units": "\u00b0C",
+        "type": "plot"
+      }
+    ],
+    "layers": [
+      {
+        "id": "lowfrac",
+        "title": "Nubosidad baja (%)",
+        "units": "%",
+        "type": "capa"
+      },
+      {
+        "id": "midfrac",
+        "title": "Nubosidad media (%)",
+        "units": "%",
+        "type": "capa"
+      },
+      {
+        "id": "highfrac",
+        "title": "Nubosidad alta (%)",
+        "units": "%",
+        "type": "capa"
+      },
+      {
+        "id": "blcloudpct",
+        "title": "Nubosidad (%)",
+        "units": "%",
+        "type": "capa"
+      },
+      {
+        "id": "rain",
+        "title": "Lluvia",
+        "units": "mm",
+        "type": "capa"
+      }
+    ],
+    "zooms": {
+      "d02": [
+        "Interior"
+      ]
+    },
+    "soundings": {
+      "d01": [],
+      "d02": [
+        {
+          "id": "lapam\u00e1n",
+          "name": "Lapam\u00e1n"
+        },
+        {
+          "id": "portosin",
+          "name": "Portosin"
+        },
+        {
+          "id": "oia",
+          "name": "Oia"
+        },
+        {
+          "id": "baltar",
+          "name": "Baltar"
+        },
+        {
+          "id": "cerdal",
+          "name": "Cerdal"
+        },
+        {
+          "id": "iroite",
+          "name": "Iroite"
+        },
+        {
+          "id": "groba",
+          "name": "Groba"
+        },
+        {
+          "id": "sanomedio",
+          "name": "Sanomedio"
+        },
+        {
+          "id": "cerdedo",
+          "name": "Cerdedo"
+        },
+        {
+          "id": "faro",
+          "name": "Faro"
+        },
+        {
+          "id": "quiroga",
+          "name": "Quiroga"
+        },
+        {
+          "id": "rodicio",
+          "name": "Rodicio"
+        }
+      ]
+    },
+    "cities": [
+      {
+        "name": "Ourense",
+        "lat": 42.344235631355154,
+        "lon": -7.867593913393807
+      },
+      {
+        "name": "Xinzo",
+        "lat": 42.06315957524415,
+        "lon": -7.726048479735918
+      },
+      {
+        "name": "Montealegre",
+        "lat": 41.8272557853786,
+        "lon": -7.7881982447245335
+      },
+      {
+        "name": "Chaves",
+        "lat": 41.74276748731619,
+        "lon": -7.473788009191289
+      },
+      {
+        "name": "Monforte",
+        "lat": 42.520563579790526,
+        "lon": -7.5147162890694865
+      },
+      {
+        "name": "Sarria",
+        "lat": 42.77919919701137,
+        "lon": -7.412301661645313
+      },
+      {
+        "name": "Ver\u00edn",
+        "lat": 41.93926557925728,
+        "lon": -7.433798440975221
+      },
+      {
+        "name": "A R\u00faa",
+        "lat": 42.395118025810454,
+        "lon": -7.1143318813949366
+      }
+    ],
+    "peaks": [
+      {
+        "name": "Manzaneda",
+        "lat": 42.25859271276444,
+        "lon": -7.301276246312062
+      }
+    ],
+    "takeoffs": [
+      {
+        "name": "Lapam\u00e1n",
+        "lat": 42.33145048629876,
+        "lon": -8.742886662507773
+      },
+      {
+        "name": "Iroite",
+        "lat": 42.74323653302907,
+        "lon": -8.894436838600088
+      },
+      {
+        "name": "Oia",
+        "lat": 42.0747481545117,
+        "lon": -8.880766153106379
+      },
+      {
+        "name": "Baltar",
+        "lat": 41.92834136636834,
+        "lon": -7.674773096841819
+      },
+      {
+        "name": "Cerdal",
+        "lat": 41.97315999575153,
+        "lon": -8.649046898281087
+      },
+      {
+        "name": "Monte Faro",
+        "lat": 42.623927,
+        "lon": -7.892687
+      },
+      {
+        "name": "Quiroga",
+        "lat": 42.472329,
+        "lon": -7.23053
+      },
+      {
+        "name": "Sanomedio",
+        "lat": 42.13370816756725,
+        "lon": -8.413337729561233
+      },
+      {
+        "name": "Rodicio",
+        "lat": 42.3143086068421,
+        "lon": -7.611492488151815
+      },
+      {
+        "name": "P\u00eda P\u00e1xaro",
+        "lat": 42.57975944190641,
+        "lon": -7.144216576552217
+      },
+      {
+        "name": "Oribio",
+        "lat": 42.57975944190641,
+        "lon": -7.144216576552217
+      },
+      {
+        "name": "Cerdedo",
+        "lat": 42.52199063960141,
+        "lon": -8.371996473903904
+      }
+    ]
+  },
+  "domains": [
+    "d01",
+    "d02"
+  ],
+  "dataset_dates": {
+    "latest": [
+      "2026-04-08",
+      "2026-04-07",
+      "2026-04-06"
+    ],
+    "archive": [
+      "2026-04-05",
+      "2026-04-04"
+    ]
+  },
+  "hours": {
+    "2026-04-08": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "2026-04-07": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "2026-04-06": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "2026-04-05": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "2026-04-04": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "last_updated": "2026-04-06 10:50:26",
+  "base_path": "PLOTS/Galicia"
+}

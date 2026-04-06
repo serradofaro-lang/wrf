@@ -1,0 +1,10 @@
+font.family: serif
+font.size: 15.0
+mathtext.rm: serif
+mathtext.fontset: cm
+axes.facecolor: 1, 1, 1, 1
+figure.facecolor: 1, 1, 1, 1
+savefig.facecolor: 1, 1, 1, 1
+figure.dpi: 150
+axes.labelsize: large
+ytick.labelsize: 11
